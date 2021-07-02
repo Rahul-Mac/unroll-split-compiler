@@ -26,10 +26,7 @@ int main()
 		case 'y':
 				//	UNROLLING
 				for(i = 0; i < N; i += 2)
-				{
-					if((i % 2) == 0)
-						printf("\n%d", i);
-				}
+					printf("\n%d", i);
 
 				//	SPLITTING
 				for(i = 0; i < N/2; i++)
